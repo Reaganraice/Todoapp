@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Charmonman|Montserrat');
+
+html{
+
+    font-family:'Montserrat';
+}
+
+body{
+    background-image: url(../css/images/dev2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.todoform{
+    width: 35%;
+    border: 25px solid #FE5F00;
+    padding: 25px;
+    margin: 25px;
+    margin-left:450px;
+    margin-top: 100px;
+    border-width: 0 3px 3px 0;
+    background-color:#FEFAE0;
+    border-radius:10px;
+}
+.inp{
+    margin: auto;
+    margin-left: 50px;
+}
+.inp input{
+    width: 80%;
+    height: 25px;
+    margin: 4px;
+    background-color: bisque;
+    border-radius: 5px;
+
+}
+#submit{
+    margin-left: 70px;
+    width: 40%;
+    height: 30px;
+    background-color: gray;
+    border-radius: 5px;
+}
+#form{
+    margin: auto;
+}
+ul li{
+    list-style-type: none;
+}
