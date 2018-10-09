@@ -34,15 +34,21 @@ function delete($task,$date) {
     $_SESSION['tasks'] = $tasklist;
   }
 }
-
+   // edit task
 function edit($task,$newtask){
+  //Initialize our list
   $tasklist = $_SESSION['tasks'];
+    // Check if the list is set
   if (isset($tasklist)){
+   // Find task in tasklist return position
   $position = array_search($task, $tasklist);
+      // If the position is found = > 0
   if ($position>=0){
+    // Edit task
     $tasklist[$position] = $newtask;
+
   }
-  
+      // Save back to session
   $_SESSION['tasks']= $tasklist;
  }
 
